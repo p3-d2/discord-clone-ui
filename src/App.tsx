@@ -1,8 +1,14 @@
 import React from 'react';
 
+import GlobalStyles from './styles/GlobalStyles';
+
 function App() {
   return (
-    <h1>Pedro</h1>
+    <>
+      <h1>Pedro</h1>
+
+      <GlobalStyles />
+    </>
   );
 }
 
