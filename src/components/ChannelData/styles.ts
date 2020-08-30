@@ -17,16 +17,16 @@ export const Messages = styled.div`
   display: flex;
   flex-direction: column;
 
-  max-height: calc(100vh - 144px);
+  max-height: calc(100vh - 46px - 76px);
   overflow-y: scroll;
 
   ::-webkit-scrollbar {
-    wifth: 8px;
+    width: 8px;
   }
 
   ::-webkit-scrollbar-thumb {
     background-color: var(--tertiary);
-    border-radius: 4px;
+    border-radius: 8px;
   }
 
   ::-webkit-scrollbar-track {
